@@ -40,7 +40,7 @@ popd
 pushd ./glue
     mkdir soloud
     cp ../lib/*.so ./soloud/glue
-    mv ./soloud.py ./__init__.py
+    mv ./soloud.py ./soloud/__init__.py
 popd
 
 # now we can import soloud
